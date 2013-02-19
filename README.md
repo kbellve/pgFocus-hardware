@@ -1,4 +1,0 @@
-pgFocus
-=======
-
-Focus Stabilization
