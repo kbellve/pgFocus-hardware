@@ -16,7 +16,7 @@ pgFocus is fully compatible with uManager.
 
 	6) uManager will be able to set, confirm or change focus positions through a uManager device adapter.
 
-	7) Designed to work with a PIFOC objective controller for fastest response, but could be used to indirectly drive a motorized Z-Drive via a uManager device adapter.
+	7) Designed to work with a piezo Z controller for fastest response, but could be used to indirectly drive a motorized Z-Drive via a uManager device adapter.
 
 	8) 3D Focus Stabilization
 		Most focus stabilization devices turn off during 3D image capture, unlike pgFocus.
