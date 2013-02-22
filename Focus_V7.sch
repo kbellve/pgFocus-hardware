@@ -6565,8 +6565,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <wire x1="1.5" y1="-4.7" x2="1.5" y2="-4.3" width="0.127" layer="21"/>
 <wire x1="-1.5" y1="4.7" x2="-1.5" y2="4.3" width="0.127" layer="21"/>
 <wire x1="1.5" y1="4.7" x2="1.5" y2="4.3" width="0.127" layer="21"/>
-<circle x="0" y="11" radius="1.55" width="1.5" layer="51"/>
-<circle x="0" y="-11" radius="1.55" width="1.5" layer="51"/>
+<circle x="0" y="11" radius="1.9" width="1.1" layer="51"/>
+<circle x="0" y="-11" radius="1.9" width="1.1" layer="51"/>
 <smd name="SI" x="-1.4" y="3.45" dx="1.4" dy="2" layer="1" rot="R90"/>
 <smd name="CLK" x="-1.4" y="1.25" dx="2" dy="0.8" layer="1"/>
 <smd name="AO" x="-1.4" y="-1.25" dx="2" dy="0.8" layer="1"/>
@@ -6576,8 +6576,8 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 <smd name="GND1" x="1.4" y="1.25" dx="2" dy="0.8" layer="1"/>
 <smd name="NC1" x="1.4" y="3.75" dx="2" dy="0.8" layer="1"/>
 <text x="-3.5" y="2.9" size="1.27" layer="21">1</text>
-<hole x="0" y="11" drill="1.6"/>
-<hole x="0" y="-11" drill="1.6"/>
+<hole x="0" y="11" drill="2.8"/>
+<hole x="0" y="-11" drill="2.8"/>
 </package>
 </packages>
 <symbols>
