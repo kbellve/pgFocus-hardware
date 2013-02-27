@@ -11711,7 +11711,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <part name="C25" library="SparkFun" deviceset="CAP_POL" device="1206-KIT" value="10uF (1 Ohm ESR)"/>
 <part name="SUPPLY19" library="supply2" deviceset="+10V" device=""/>
 <part name="ADR03BRZ" library="linear" deviceset="REF03" device="D"/>
-<part name="AD7894-1" library="BIG" deviceset="AD7894ARZ-3" device=""/>
+<part name="AD7894-10" library="BIG" deviceset="AD7894ARZ-3" device=""/>
 <part name="SUPPLY15" library="supply2" deviceset="+5V" device=""/>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C10" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
@@ -11822,7 +11822,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <text x="149.86" y="71.12" size="1.778" layer="91">Low ESR Caps</text>
 <text x="15.24" y="104.14" size="1.778" layer="91">Could use cheaper AD8226</text>
 <text x="93.98" y="45.72" size="1.27" layer="91">fc = 15.9kHz (Caps = 1nF)</text>
-<text x="133.858" y="52.324" size="1.016" layer="91" rot="R90">Optional</text>
+<text x="148.336" y="57.658" size="1.016" layer="91" rot="R180">Optional</text>
 <text x="7.62" y="55.88" size="1.778" layer="91">AD5531</text>
 <text x="91.44" y="35.306" size="1.778" layer="91">Karl Bellve, Biomedical Imaging Group</text>
 <text x="91.44" y="32.512" size="1.778" layer="91">University of Massachusetts Medical School</text>
@@ -11907,7 +11907,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <instance part="C25" gate="G$1" x="170.18" y="86.36"/>
 <instance part="SUPPLY19" gate="G$1" x="170.18" y="91.44"/>
 <instance part="ADR03BRZ" gate="A" x="91.44" y="104.14"/>
-<instance part="AD7894-1" gate="A" x="-12.7" y="165.1" smashed="yes">
+<instance part="AD7894-10" gate="A" x="-12.7" y="165.1" smashed="yes">
 <attribute name="NAME" x="-2.8702" y="172.085" size="1.27" layer="95" ratio="6" rot="SR0"/>
 </instance>
 <instance part="SUPPLY15" gate="+5V" x="-15.24" y="152.4" rot="R90"/>
@@ -11950,7 +11950,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </instance>
 <instance part="L2" gate="G$1" x="91.44" y="121.92"/>
 <instance part="F1" gate="G$1" x="93.98" y="175.26" rot="R90"/>
-<instance part="C35" gate="G$1" x="139.7" y="58.42"/>
+<instance part="C35" gate="G$1" x="139.7" y="55.88" rot="R180"/>
 <instance part="C4" gate="G$1" x="-22.86" y="152.4"/>
 <instance part="GND3" gate="1" x="-22.86" y="147.32"/>
 <instance part="R5" gate="G$1" x="-27.94" y="147.32" rot="R90"/>
@@ -12131,6 +12131,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="C34" gate="G$1" pin="2"/>
 <pinref part="C39" gate="G$1" pin="+"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="104.14" y1="88.9" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
@@ -12188,7 +12189,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </segment>
 <segment>
 <wire x1="60.96" y1="152.4" x2="58.42" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="AD7894-1" gate="A" pin="GND"/>
+<pinref part="AD7894-10" gate="A" pin="GND"/>
 <pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -12419,7 +12420,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="-12.7" y1="160.02" x2="-17.78" y2="160.02" width="0.1524" layer="91"/>
 <label x="-20.32" y="160.02" size="1.778" layer="95"/>
-<pinref part="AD7894-1" gate="A" pin="SCLK"/>
+<pinref part="AD7894-10" gate="A" pin="SCLK"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -12436,7 +12437,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="58.42" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="91"/>
 <label x="60.96" y="162.56" size="1.778" layer="95"/>
-<pinref part="AD7894-1" gate="A" pin="SDATA"/>
+<pinref part="AD7894-10" gate="A" pin="SDATA"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -12688,20 +12689,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="+5V" class="0">
 <segment>
-<wire x1="139.7" y1="63.5" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="66.04" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="60.96" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
-<junction x="144.78" y="60.96"/>
-<junction x="139.7" y="63.5"/>
-<pinref part="SUPPLY11" gate="+5V" pin="+5V"/>
-<pinref part="TC1" gate="G$1" pin="V+"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<pinref part="C35" gate="G$1" pin="1"/>
-<pinref part="C34" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <wire x1="-45.72" y1="137.16" x2="-45.72" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="137.16" x2="-45.72" y2="137.16" width="0.1524" layer="91"/>
 <junction x="-45.72" y="137.16"/>
@@ -12714,7 +12701,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="-12.7" y1="152.4" x2="-12.7" y2="149.86" width="0.1524" layer="91"/>
 <junction x="-12.7" y="152.4"/>
-<pinref part="AD7894-1" gate="A" pin="VDD"/>
+<pinref part="AD7894-10" gate="A" pin="VDD"/>
 <pinref part="SUPPLY15" gate="+5V" pin="+5V"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
@@ -12783,6 +12770,20 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pinref part="SUPPLY18" gate="+5V" pin="+5V"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<wire x1="152.4" y1="60.96" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="66.04" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="TC1" gate="G$1" pin="V+"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<pinref part="SUPPLY11" gate="+5V" pin="+5V"/>
+<wire x1="144.78" y1="60.96" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="60.96" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<junction x="144.78" y="60.96"/>
+<pinref part="C34" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="63.5" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="63.5" x2="139.7" y2="63.5" width="0.1524" layer="91"/>
+<junction x="139.7" y="63.5"/>
+</segment>
 </net>
 <net name="N$30" class="0">
 <segment>
@@ -12833,7 +12834,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="-12.7" y1="162.56" x2="-22.86" y2="162.56" width="0.1524" layer="91"/>
 <label x="-27.94" y="162.56" size="1.778" layer="95"/>
-<pinref part="AD7894-1" gate="A" pin="REF_IN"/>
+<pinref part="AD7894-10" gate="A" pin="REF_IN"/>
 </segment>
 </net>
 <net name="TSL1401R_SI" class="0">
@@ -12865,7 +12866,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="58.42" y1="165.1" x2="60.96" y2="165.1" width="0.1524" layer="91"/>
 <label x="60.96" y="165.1" size="1.778" layer="95"/>
-<pinref part="AD7894-1" gate="A" pin="BUSY"/>
+<pinref part="AD7894-10" gate="A" pin="BUSY"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="185.42" x2="170.18" y2="185.42" width="0.1524" layer="91"/>
@@ -12875,7 +12876,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="152.4" y1="55.88" x2="139.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="55.88" x2="139.7" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="TC1" gate="G$1" pin="OSC"/>
 <pinref part="C35" gate="G$1" pin="2"/>
 </segment>
@@ -12884,7 +12885,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <segment>
 <wire x1="-12.7" y1="165.1" x2="-15.24" y2="165.1" width="0.1524" layer="91"/>
 <label x="-22.86" y="167.64" size="1.778" layer="95"/>
-<pinref part="AD7894-1" gate="A" pin="CONVST*"/>
+<pinref part="AD7894-10" gate="A" pin="CONVST*"/>
 </segment>
 <segment>
 <wire x1="167.64" y1="182.88" x2="170.18" y2="182.88" width="0.1524" layer="91"/>
@@ -12940,7 +12941,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="-22.86" y1="157.48" x2="-27.94" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="-27.94" y1="157.48" x2="-27.94" y2="152.4" width="0.1524" layer="91"/>
 <junction x="-22.86" y="157.48"/>
-<pinref part="AD7894-1" gate="A" pin="VIN"/>
+<pinref part="AD7894-10" gate="A" pin="VIN"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
