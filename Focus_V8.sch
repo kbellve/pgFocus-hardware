@@ -12933,7 +12933,7 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <attribute name="VALUE" x="98.044" y="58.801" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY1" gate="1" x="76.2" y="48.26"/>
-<instance part="SUPPLY2" gate="1" x="-27.94" y="91.44"/>
+<instance part="SUPPLY2" gate="1" x="-30.48" y="91.44"/>
 <instance part="SUPPLY6" gate="1" x="76.2" y="83.82"/>
 <instance part="SUPPLY7" gate="1" x="20.32" y="63.5"/>
 <instance part="SUPPLY9" gate="1" x="-17.78" y="104.14"/>
@@ -13447,14 +13447,16 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <wire x1="76.2" y1="50.8" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="-35.56" y1="93.98" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="93.98" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="88.9" x2="-22.86" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="88.9" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="93.98" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="93.98" x2="-30.48" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="1" pin="-12V"/>
 <pinref part="AD8221" gate="A" pin="-VS"/>
+<wire x1="-30.48" y1="93.98" x2="-27.94" y2="93.98" width="0.1524" layer="91"/>
+<junction x="-30.48" y="93.98"/>
 </segment>
 <segment>
 <pinref part="SUPPLY12" gate="1" pin="-12V"/>
@@ -14238,6 +14240,7 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="AD8221" gate="A" pin="+VS"/>
 <junction x="-10.16" y="101.6"/>
+<junction x="-17.78" y="101.6"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="2"/>
@@ -14373,6 +14376,7 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <pinref part="GND36" gate="VR1" pin="AGND"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="139.7" x2="7.62" y2="144.78" width="0.1524" layer="91"/>
+<junction x="7.62" y="144.78"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="2"/>
