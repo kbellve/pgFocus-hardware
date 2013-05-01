@@ -14821,6 +14821,50 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,2.54,91.44,AD8221,+VS,+12V,,,"/>
+<approved hash="104,1,2.54,88.9,AD8221,-VS,-12V,,,"/>
+<approved hash="104,1,76.2,76.2,ADTL082-IC2P,V+,+12V,,,"/>
+<approved hash="104,1,76.2,60.96,ADTL082-IC2P,V-,-12V,,,"/>
+<approved hash="202,1,91.44,106.68,ADR03BRZ,TRM,,,,"/>
+<approved hash="104,1,91.44,111.76,ADR03BRZ,V+,+5V,,,"/>
+<approved hash="104,1,-12.7,152.4,AD7894-10,VDD,+5V,,,"/>
+<approved hash="104,1,22.86,182.88,ICSP,VCC,+5V,,,"/>
+<approved hash="104,1,0,139.7,ADTL082-IC1P,V+,+12V,,,"/>
+<approved hash="104,1,0,124.46,ADTL082-IC1P,V-,-12V,,,"/>
+<approved hash="104,1,-15.24,45.72,U$1,REFAGND,GND,,,"/>
+<approved hash="104,1,0,45.72,U$1,VDD,+12V,,,"/>
+<approved hash="104,1,0,40.64,U$1,DUTGND,AGND,,,"/>
+<approved hash="104,1,0,38.1,U$1,VSS,-12V,,,"/>
+<approved hash="202,1,-15.24,33.02,U$1,RBEN,,,,"/>
+<approved hash="104,1,0,33.02,U$1,GND,AGND,,,"/>
+<approved hash="208,1,172.72,68.58,AGND,sup,,,,"/>
+<approved hash="208,1,172.72,48.26,AGND,sup,,,,"/>
+<approved hash="208,1,180.34,83.82,AGND,sup,,,,"/>
+<approved hash="208,1,96.52,93.98,AGND,sup,,,,"/>
+<approved hash="208,1,68.58,50.8,AGND,sup,,,,"/>
+<approved hash="208,1,86.36,55.88,AGND,sup,,,,"/>
+<approved hash="208,1,96.52,55.88,AGND,sup,,,,"/>
+<approved hash="208,1,86.36,78.74,AGND,sup,,,,"/>
+<approved hash="208,1,-5.08,76.2,AGND,sup,,,,"/>
+<approved hash="208,1,-40.64,63.5,AGND,sup,,,,"/>
+<approved hash="208,1,-31.75,101.6,AGND,sup,,,,"/>
+<approved hash="208,1,-13.97,93.98,AGND,sup,,,,"/>
+<approved hash="208,1,25.4,116.84,AGND,sup,,,,"/>
+<approved hash="208,1,7.62,124.46,AGND,sup,,,,"/>
+<approved hash="208,1,7.62,144.78,AGND,sup,,,,"/>
+<approved hash="208,1,-22.86,147.32,AGND,sup,,,,"/>
+<approved hash="208,1,129.54,58.42,AGND,sup,,,,"/>
+<approved hash="208,1,30.48,27.94,AGND,sup,,,,"/>
+<approved hash="208,1,15.24,50.8,AGND,sup,,,,"/>
+<approved hash="208,1,60.96,152.4,AGND,sup,,,,"/>
+<approved hash="208,1,53.34,58.42,AGND,sup,,,,"/>
+<approved hash="208,1,58.42,81.28,AGND,out,,,,"/>
+<approved hash="208,1,58.42,81.28,AGND,sup,,,,"/>
+<approved hash="208,1,68.58,129.54,AGND,sup,,,,"/>
+<approved hash="208,1,0,33.02,AGND,sup,,,,"/>
+<approved hash="208,1,0,40.64,AGND,sup,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
