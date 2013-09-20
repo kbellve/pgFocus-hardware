@@ -12905,7 +12905,7 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <part name="C15" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF (50V)"/>
 <part name="C17" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF (50V)"/>
 <part name="BNC-OUT" library="SparkFun" deviceset="BNC" device="PTH"/>
-<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="1M"/>
+<part name="R10" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100k"/>
 <part name="C18" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF (16V)"/>
 <part name="16MHZ" library="SparkFun" deviceset="CRYSTAL" device="HC49UV" value="16Mhz"/>
 <part name="C9" library="SparkFun" deviceset="CAP" device="0603-CAP" value="18pF (16V)"/>
@@ -12965,12 +12965,12 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <part name="GND29" library="supply1" deviceset="AGND" device=""/>
 <part name="GND30" library="supply1" deviceset="AGND" device=""/>
 <part name="GND31" library="supply1" deviceset="AGND" device=""/>
-<part name="C21" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C21" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF (16V)"/>
 <part name="GND28" library="SparkFun" deviceset="GND" device=""/>
 <part name="Z2" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="Z1" library="varistor" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="L2" library="wuerth-elektronik" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
-<part name="F1" library="SparkFun" deviceset="PTC" device="SMD" value="MF-NSMF050-2"/>
+<part name="F1" library="SparkFun" deviceset="PTC" device="SMD" value="MF-MSMF050-2"/>
 <part name="C4" library="SparkFun" deviceset="CAP" device="0603-CAP" value="0.1uF (50V)"/>
 <part name="GND3" library="supply1" deviceset="AGND" device=""/>
 <part name="R5" library="SparkFun" deviceset="RESISTOR" device="0603-RES" value="100"/>
@@ -13035,9 +13035,9 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <part name="GND14" library="supply1" deviceset="AGND" device=""/>
 <part name="GND45" library="supply1" deviceset="AGND" device=""/>
 <part name="GND46" library="SparkFun" deviceset="GND" device=""/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO"/>
+<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="TRACE" value="SOLDERJUMPERTRACE"/>
 <part name="LCD" library="SparkFun-Connectors" deviceset="M03" device="JST-PTH" value="LCD-09394"/>
-<part name="C30" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF"/>
+<part name="C30" library="SparkFun" deviceset="CAP" device="0603-CAP" value="1uF (16V)"/>
 <part name="GND47" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="+5V" device=""/>
 <part name="GND48" library="SparkFun" deviceset="GND" device=""/>
@@ -13045,8 +13045,7 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <part name="GND16" library="supply1" deviceset="AGND" device=""/>
 <part name="IO11" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5"/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$1" library="BIG" deviceset="AD5331" device=""/>
-<part name="GND20" library="SparkFun" deviceset="GND" device=""/>
+<part name="U$1" library="BIG" deviceset="AD5331" device="" value="AD5531"/>
 <part name="GND49" library="supply1" deviceset="AGND" device=""/>
 <part name="GND50" library="supply1" deviceset="AGND" device=""/>
 <part name="GND33" library="SparkFun" deviceset="GND" device=""/>
@@ -13062,6 +13061,8 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <part name="C25" library="SparkFun" deviceset="CAP_POL" device="1206-KIT" value="10uF (35V)"/>
 <part name="C39" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="10uF (PLF1E100MCL7TP)"/>
 <part name="C24" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="10uF (PLF1E100MCL7TP)"/>
+<part name="SUPPLY21" library="supply2" deviceset="+5V" device=""/>
+<part name="GND20" library="supply1" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13072,7 +13073,6 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <text x="127" y="121.92" size="1.778" layer="91" rot="R90">16MHz SF: COM-00536</text>
 <text x="93.98" y="50.8" size="1.27" layer="91">Sallen-Key Filter</text>
 <text x="93.98" y="48.26" size="1.27" layer="91">fc = 159kHz (Caps = 100pF)</text>
-<text x="10.16" y="86.36" size="1.778" layer="91">Could use cheaper AD8226</text>
 <text x="93.98" y="45.72" size="1.27" layer="91">fc = 15.9kHz (Caps = 1000pF)</text>
 <text x="91.44" y="35.306" size="1.778" layer="91">Karl Bellve, Biomedical Imaging Group</text>
 <text x="91.44" y="32.512" size="1.778" layer="91">University of Massachusetts Medical School</text>
@@ -13498,7 +13498,6 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <instance part="IO11" gate="G$1" x="182.88" y="152.4" rot="R180"/>
 <instance part="GND18" gate="1" x="-30.48" y="129.54"/>
 <instance part="U$1" gate="G$1" x="-7.62" y="35.56"/>
-<instance part="GND20" gate="1" x="-17.78" y="27.94" rot="R270"/>
 <instance part="GND49" gate="VR1" x="58.42" y="78.74"/>
 <instance part="GND50" gate="VR1" x="2.54" y="40.64" rot="R90"/>
 <instance part="GND33" gate="1" x="-43.18" y="45.72" rot="R270"/>
@@ -13534,6 +13533,8 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 </instance>
 <instance part="C39" gate="G$1" x="172.72" y="91.44"/>
 <instance part="C24" gate="G$1" x="180.34" y="53.34" rot="R180"/>
+<instance part="SUPPLY21" gate="+5V" x="-50.8" y="38.1"/>
+<instance part="GND20" gate="VR1" x="-17.78" y="27.94" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13666,10 +13667,6 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <pinref part="U$1" gate="G$1" pin="LDAC"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="-40.64" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="SDO"/>
-<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="REFAGND"/>
@@ -14110,6 +14107,12 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <wire x1="-43.18" y1="132.08" x2="-43.18" y2="125.222" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="125.222" x2="-44.704" y2="125.222" width="0.1524" layer="91"/>
 <pinref part="SENSOR" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="RBEN"/>
+<pinref part="SUPPLY21" gate="+5V" pin="+5V"/>
+<wire x1="-15.24" y1="33.02" x2="-50.8" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="33.02" x2="-50.8" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="2.5V_REFIN" class="0">
@@ -14734,6 +14737,10 @@ Proven layout and schematic for triple color LED in SMD package - common anode. 
 <segment>
 <pinref part="U$1" gate="G$1" pin="DUTGND"/>
 <pinref part="GND50" gate="VR1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="SDO"/>
+<pinref part="GND20" gate="VR1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$6" class="0">
