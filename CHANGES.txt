@@ -1,0 +1,18 @@
+
+June 29 2015
+
+I will be posting to github a new main circuit board for pgFocus with a few small changes. This new version has not been tested yet.
+
+I have removed  the LCD connector. In the past, I found that the driving a LCD would introduce too much noise into pgFocus, so I have never used it.
+
+I have moved the RGB LED to the back edge of the circuit board. This reduces the bending strain on the optical light pipe. 
+
+The RGB LED does introduce noise into the pgFocus analog circuit, but I only change the RGB LED when pgFocus loses focus control, or gains focus control, not during focus control.
+
+I have also moved both the sensor and expansion connectors. They are both closer to the edge of the back of the board. They should now protrude through the back plate. This simplifies the containing packaging of pgFocus.
+
+I also moved the large rear +5V circuit to the bottom layer of the board, and not the top layer. 
+
+New date on the back of June 25, 2015.
+
+
